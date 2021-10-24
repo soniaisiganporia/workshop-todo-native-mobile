@@ -2,8 +2,7 @@ tasks:
   - name: todonativemobileapp
     before: |
       cd /workspace/workshop-todo-native-mobile
-      nvm install node
-      npm install
+      npm install -g node@16.11.0 —force
       npm install -g expo-cli
       npm install -g netlify-cli
       npm install astra-setup
